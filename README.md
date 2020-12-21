@@ -6,12 +6,12 @@ Repositório para entrega do Desafio Nginx com Node.js do curso Fullcycle da Cod
 
 * Sumário
 * Versão 1.0
-* URL da imagem no docker hub
+* Repositório no Git Hub do projeto
 * Como rodar a aplicação?
 
-### URL da imagem no docker hub ###
+### Repositório no Git Hub do projeto ###
 
-* https://hub.docker.com/repository/docker/fernandolerma/codeeducation
+* https://github.com/flerma/desafio-nginx-nodejs-codeeducation
 
 ### Como rodar a aplicação? ###
 
