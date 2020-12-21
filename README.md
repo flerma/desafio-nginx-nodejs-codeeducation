@@ -18,7 +18,9 @@ Repositório para entrega do Desafio Nginx com Node.js do curso Fullcycle da Cod
 * Para executar rode os comandos abaixo:
 
     git clone https://github.com/flerma/desafio-nginx-nodejs-codeeducation.git
+    
     docker-compose up -d 
+    
     No browser executar a url: http://localhost:8080/
 
     A mensagem abaixo: deve ser apresentada
