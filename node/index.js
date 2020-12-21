@@ -16,10 +16,13 @@ const config = {
 const mysql = require("mysql");
 const connection = mysql.createConnection(config);
 
-const sql = `insert into people(name) values ('fernando')`;
-const sqlPeopleQuery = 'Select * from people';
-connection.query(sql);
+const sqlCreateTable = 'CREATE TABLE people (id int(4) AUTO_INCREMENT, name varchar(255) NOT NULL, PRIMARY KEY (id))';
+connection.query(sqlCreateTable);
 
+const sqlInsert = `insert into people(name) values ('fernando')`;
+connection.query(sqlInsert);
+
+const sqlPeopleQuery = 'Select * from people';
 connection.query(sqlPeopleQuery, function (err, rows, fields) {
     if (err) throw err;
     var resultArray = Object.values(JSON.parse(JSON.stringify(rows)));
